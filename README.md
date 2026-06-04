@@ -17,6 +17,6 @@ publishes the result to GitHub Pages.
 
 ## Setup checklist
 
-- [ ] Add a `DEPLOY_TOKEN` secret (PAT with read access to the private source repo).
+- [ ] Add a `BOOK_PUBLISH_TOKEN` secret (PAT with read access to the private source repo).
 - [ ] Enable GitHub Pages with **GitHub Actions** as the source.
-- [ ] Add a matching `DEPLOY_TOKEN` secret in the private repo (for the trigger).
+- [ ] Add a matching `BOOK_PUBLISH_TOKEN` secret in the private repo (for the trigger).

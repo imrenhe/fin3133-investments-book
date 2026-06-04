@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: imrenhe/fin3133-investments
-          token: ${{ secrets.DEPLOY_TOKEN }}
+          token: ${{ secrets.BOOK_PUBLISH_TOKEN }}
           path: source
 
       - uses: quarto-dev/quarto-actions/setup@v2
