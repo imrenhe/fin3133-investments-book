@@ -2,8 +2,6 @@
 
 Public render/deploy repo for the **Investments** (FIN 3133) textbook.
 
-The book source lives in the private repo
-[`imrenhe/fin3133-investments`](https://github.com/imrenhe/fin3133-investments).
 This repo's GitHub Action checks out that source, renders it with Quarto, and
 publishes the result to GitHub Pages.
 
